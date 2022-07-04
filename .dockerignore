@@ -1,0 +1,9 @@
+/.idea
+/*.iml
+/.vscode
+
+/.dev
+/bin
+/dist
+/site
+/coverage.txt
