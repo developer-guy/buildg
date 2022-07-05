@@ -2,7 +2,7 @@ ARG GO_VERSION=1.18
 ARG RUNC_VERSION=v1.1.3
 
 # syntax = docker/dockerfile:1.4.0
-FROM --platform=${BUILDPLATFORM} golang:${GO_VERSION}-scratch AS base
+FROM --platform=${BUILDPLATFORM} golang:${GO_VERSION}-alpine AS base
 WORKDIR /src
 ENV CGO_ENABLED=0
 COPY go.* .
