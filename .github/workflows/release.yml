@@ -93,7 +93,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=buildg
             org.opencontainers.image.description=Interactive debugger for Dockerfile, with support for IDEs (VS Code, Emacs, Neovim, etc.)
-            org.opencontainers.image.vendor=${{ github.repositor_owner }}
+            org.opencontainers.image.vendor=${{ github.repository_owner }}
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
